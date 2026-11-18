@@ -1,0 +1,95 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+article {
+    width: 70%;
+    background-color: white;
+    padding: 30px;
+}
+
+aside {
+    width: 30%;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.gambar {
+    width: 40%;
+    height: 200px;
+    background-color: gray;
+}
+
+
+.foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+
+#formKontak {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#formKontak h2 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
